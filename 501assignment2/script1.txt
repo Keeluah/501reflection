@@ -1,5 +1,75 @@
 ======================================================
 Filename: script1.txt
 Running Test: ClassA
-Recursive: true
+Recursive: false
+Class: ClassA
+Interface: [interface java.io.Serializable, interface java.lang.Runnable]
+---------------------------
+Superclass: Object
+Interface: []
+---------------------------------------
+Constructor: public ClassA()
+- Name: ClassA
+- Parameters: 
+- Modifiers: public
+---------------------------------------
+Constructor: public ClassA(int)
+- Name: ClassA
+- Parameters: 
+	- int arg0
+- Modifiers: public
+---------------------------------------
+Field: private int ClassA.val
+- Name: val
+- Type: int
+- Modifiers: private
+	- int: 3
+---------------------------------------
+Field: private double ClassA.val2
+- Name: val2
+- Type: double
+- Modifiers: private
+	- double: 0.2
+---------------------------------------
+Field: private boolean ClassA.val3
+- Name: val3
+- Type: boolean
+- Modifiers: private
+	- boolean: true
+---------------------------------------
+Method: public int ClassA.getVal()
+- Name: getVal
+- Exceptions: []
+- Parameters: 
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: private void ClassA.printSomething()
+- Name: printSomething
+- Exceptions: []
+- Parameters: 
+- Return type: void
+- Modifiers: private
+---------------------------------------
+Method: public void ClassA.run()
+- Name: run
+- Exceptions: []
+- Parameters: 
+- Return type: void
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String ClassA.toString()
+- Name: toString
+- Exceptions: []
+- Parameters: 
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public void ClassA.setVal(int) throws java.lang.Exception
+- Name: setVal
+- Exceptions: [class java.lang.Exception]
+- Parameters: 
+	- int arg0
+- Return type: void
+- Modifiers: public
 ======================================================

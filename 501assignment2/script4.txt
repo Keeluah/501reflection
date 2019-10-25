@@ -1,5 +1,62 @@
 ======================================================
 Filename: script4.txt
 Running Test: ClassD
-Recursive: true
+Recursive: false
+Class: ClassD
+Interface: []
+---------------------------
+Superclass: Object
+Interface: []
+---------------------------------------
+Constructor: public ClassD()
+- Name: ClassD
+- Parameters: 
+- Modifiers: public
+---------------------------------------
+Constructor: public ClassD(int)
+- Name: ClassD
+- Parameters: 
+	- int arg0
+- Modifiers: public
+---------------------------------------
+Field: private ClassA ClassD.val
+- Name: val
+- Type: class ClassA
+- Modifiers: private
+118352462
+	- object: 70dea4e
+---------------------------------------
+Field: private static ClassA ClassD.val2
+- Name: val2
+- Type: class ClassA
+- Modifiers: private static
+118352462
+	- object: 70dea4e
+---------------------------------------
+Field: private int ClassD.val3
+- Name: val3
+- Type: int
+- Modifiers: private
+	- int: 32
+---------------------------------------
+Field: private ClassA[] ClassD.vallarray
+- Name: vallarray
+- Type: class [LClassA;
+- Modifiers: private
+118352462
+	- object: 70dea4e
+---------------------------------------
+Method: public int ClassD.getVal3()
+- Name: getVal3
+- Exceptions: []
+- Parameters: 
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String ClassD.toString()
+- Name: toString
+- Exceptions: []
+- Parameters: 
+- Return type: class java.lang.String
+- Modifiers: public
 ======================================================

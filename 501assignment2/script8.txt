@@ -1,5 +1,825 @@
 ======================================================
 Filename: script8.txt
 Running Test: Test String
-Recursive: true
+Recursive: false
+Class: java.lang.String
+Interface: [interface java.io.Serializable, interface java.lang.Comparable, interface java.lang.CharSequence]
+---------------------------
+Superclass: Object
+Interface: []
+---------------------------------------
+Constructor: public java.lang.String(byte[],int,int)
+- Name: java.lang.String
+- Parameters: 
+	- class [B arg0
+	- int arg1
+	- int arg2
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(byte[],java.nio.charset.Charset)
+- Name: java.lang.String
+- Parameters: 
+	- class [B arg0
+	- class java.nio.charset.Charset arg1
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(byte[],java.lang.String) throws java.io.UnsupportedEncodingException
+- Name: java.lang.String
+- Parameters: 
+	- class [B arg0
+	- class java.lang.String arg1
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(byte[],int,int,java.nio.charset.Charset)
+- Name: java.lang.String
+- Parameters: 
+	- class [B arg0
+	- int arg1
+	- int arg2
+	- class java.nio.charset.Charset arg3
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(byte[],int,int,java.lang.String) throws java.io.UnsupportedEncodingException
+- Name: java.lang.String
+- Parameters: 
+	- class [B arg0
+	- int arg1
+	- int arg2
+	- class java.lang.String arg3
+- Modifiers: public
+---------------------------------------
+Constructor: java.lang.String(char[],boolean)
+- Name: java.lang.String
+- Parameters: 
+	- class [C arg0
+	- boolean arg1
+- Modifiers: 
+---------------------------------------
+Constructor: public java.lang.String(java.lang.StringBuilder)
+- Name: java.lang.String
+- Parameters: 
+	- class java.lang.StringBuilder arg0
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(java.lang.StringBuffer)
+- Name: java.lang.String
+- Parameters: 
+	- class java.lang.StringBuffer arg0
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(byte[])
+- Name: java.lang.String
+- Parameters: 
+	- class [B arg0
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(int[],int,int)
+- Name: java.lang.String
+- Parameters: 
+	- class [I arg0
+	- int arg1
+	- int arg2
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String()
+- Name: java.lang.String
+- Parameters: 
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(char[])
+- Name: java.lang.String
+- Parameters: 
+	- class [C arg0
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(java.lang.String)
+- Name: java.lang.String
+- Parameters: 
+	- class java.lang.String arg0
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(char[],int,int)
+- Name: java.lang.String
+- Parameters: 
+	- class [C arg0
+	- int arg1
+	- int arg2
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(byte[],int)
+- Name: java.lang.String
+- Parameters: 
+	- class [B arg0
+	- int arg1
+- Modifiers: public
+---------------------------------------
+Constructor: public java.lang.String(byte[],int,int,int)
+- Name: java.lang.String
+- Parameters: 
+	- class [B arg0
+	- int arg1
+	- int arg2
+	- int arg3
+- Modifiers: public
+---------------------------------------
+Field: private final char[] java.lang.String.value
+- Name: value
+- Type: class [C
+- Modifiers: private final
+1808253012
+	- object: 6bc7c054
+---------------------------------------
+Field: private int java.lang.String.hash
+- Name: hash
+- Type: int
+- Modifiers: private
+	- int: 0
+---------------------------------------
+Field: private static final long java.lang.String.serialVersionUID
+- Name: serialVersionUID
+- Type: long
+- Modifiers: private static final
+1808253012
+	- object: 6bc7c054
+---------------------------------------
+Field: private static final java.io.ObjectStreamField[] java.lang.String.serialPersistentFields
+- Name: serialPersistentFields
+- Type: class [Ljava.io.ObjectStreamField;
+- Modifiers: private static final
+1808253012
+	- object: 6bc7c054
+---------------------------------------
+Field: public static final java.util.Comparator java.lang.String.CASE_INSENSITIVE_ORDER
+- Name: CASE_INSENSITIVE_ORDER
+- Type: interface java.util.Comparator
+- Modifiers: public static final
+1808253012
+	- object: 6bc7c054
+---------------------------------------
+Method: public boolean java.lang.String.equals(java.lang.Object)
+- Name: equals
+- Exceptions: []
+- Parameters: 
+	- class java.lang.Object arg0
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String java.lang.String.toString()
+- Name: toString
+- Exceptions: []
+- Parameters: 
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.hashCode()
+- Name: hashCode
+- Exceptions: []
+- Parameters: 
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.compareTo(java.lang.Object)
+- Name: compareTo
+- Exceptions: []
+- Parameters: 
+	- class java.lang.Object arg0
+- Return type: int
+- Modifiers: public volatile
+---------------------------------------
+Method: public int java.lang.String.compareTo(java.lang.String)
+- Name: compareTo
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.indexOf(java.lang.String,int)
+- Name: indexOf
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+	- int arg1
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: static int java.lang.String.indexOf(char[],int,int,java.lang.String,int)
+- Name: indexOf
+- Exceptions: []
+- Parameters: 
+	- class [C arg0
+	- int arg1
+	- int arg2
+	- class java.lang.String arg3
+	- int arg4
+- Return type: int
+- Modifiers: static
+---------------------------------------
+Method: static int java.lang.String.indexOf(char[],int,int,char[],int,int,int)
+- Name: indexOf
+- Exceptions: []
+- Parameters: 
+	- class [C arg0
+	- int arg1
+	- int arg2
+	- class [C arg3
+	- int arg4
+	- int arg5
+	- int arg6
+- Return type: int
+- Modifiers: static
+---------------------------------------
+Method: public int java.lang.String.indexOf(int)
+- Name: indexOf
+- Exceptions: []
+- Parameters: 
+	- int arg0
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.indexOf(java.lang.String)
+- Name: indexOf
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.indexOf(int,int)
+- Name: indexOf
+- Exceptions: []
+- Parameters: 
+	- int arg0
+	- int arg1
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public static java.lang.String java.lang.String.valueOf(char)
+- Name: valueOf
+- Exceptions: []
+- Parameters: 
+	- char arg0
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: public static java.lang.String java.lang.String.valueOf(java.lang.Object)
+- Name: valueOf
+- Exceptions: []
+- Parameters: 
+	- class java.lang.Object arg0
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: public static java.lang.String java.lang.String.valueOf(boolean)
+- Name: valueOf
+- Exceptions: []
+- Parameters: 
+	- boolean arg0
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: public static java.lang.String java.lang.String.valueOf(char[],int,int)
+- Name: valueOf
+- Exceptions: []
+- Parameters: 
+	- class [C arg0
+	- int arg1
+	- int arg2
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: public static java.lang.String java.lang.String.valueOf(char[])
+- Name: valueOf
+- Exceptions: []
+- Parameters: 
+	- class [C arg0
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: public static java.lang.String java.lang.String.valueOf(double)
+- Name: valueOf
+- Exceptions: []
+- Parameters: 
+	- double arg0
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: public static java.lang.String java.lang.String.valueOf(float)
+- Name: valueOf
+- Exceptions: []
+- Parameters: 
+	- float arg0
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: public static java.lang.String java.lang.String.valueOf(long)
+- Name: valueOf
+- Exceptions: []
+- Parameters: 
+	- long arg0
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: public static java.lang.String java.lang.String.valueOf(int)
+- Name: valueOf
+- Exceptions: []
+- Parameters: 
+	- int arg0
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: private static void java.lang.String.checkBounds(byte[],int,int)
+- Name: checkBounds
+- Exceptions: []
+- Parameters: 
+	- class [B arg0
+	- int arg1
+	- int arg2
+- Return type: void
+- Modifiers: private static
+---------------------------------------
+Method: public int java.lang.String.length()
+- Name: length
+- Exceptions: []
+- Parameters: 
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public boolean java.lang.String.isEmpty()
+- Name: isEmpty
+- Exceptions: []
+- Parameters: 
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: public char java.lang.String.charAt(int)
+- Name: charAt
+- Exceptions: []
+- Parameters: 
+	- int arg0
+- Return type: char
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.codePointAt(int)
+- Name: codePointAt
+- Exceptions: []
+- Parameters: 
+	- int arg0
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.codePointBefore(int)
+- Name: codePointBefore
+- Exceptions: []
+- Parameters: 
+	- int arg0
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.codePointCount(int,int)
+- Name: codePointCount
+- Exceptions: []
+- Parameters: 
+	- int arg0
+	- int arg1
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.offsetByCodePoints(int,int)
+- Name: offsetByCodePoints
+- Exceptions: []
+- Parameters: 
+	- int arg0
+	- int arg1
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public void java.lang.String.getChars(int,int,char[],int)
+- Name: getChars
+- Exceptions: []
+- Parameters: 
+	- int arg0
+	- int arg1
+	- class [C arg2
+	- int arg3
+- Return type: void
+- Modifiers: public
+---------------------------------------
+Method: void java.lang.String.getChars(char[],int)
+- Name: getChars
+- Exceptions: []
+- Parameters: 
+	- class [C arg0
+	- int arg1
+- Return type: void
+- Modifiers: 
+---------------------------------------
+Method: public byte[] java.lang.String.getBytes()
+- Name: getBytes
+- Exceptions: []
+- Parameters: 
+- Return type: class [B
+- Modifiers: public
+---------------------------------------
+Method: public byte[] java.lang.String.getBytes(java.lang.String) throws java.io.UnsupportedEncodingException
+- Name: getBytes
+- Exceptions: [class java.io.UnsupportedEncodingException]
+- Parameters: 
+	- class java.lang.String arg0
+- Return type: class [B
+- Modifiers: public
+---------------------------------------
+Method: public void java.lang.String.getBytes(int,int,byte[],int)
+- Name: getBytes
+- Exceptions: []
+- Parameters: 
+	- int arg0
+	- int arg1
+	- class [B arg2
+	- int arg3
+- Return type: void
+- Modifiers: public
+---------------------------------------
+Method: public byte[] java.lang.String.getBytes(java.nio.charset.Charset)
+- Name: getBytes
+- Exceptions: []
+- Parameters: 
+	- class java.nio.charset.Charset arg0
+- Return type: class [B
+- Modifiers: public
+---------------------------------------
+Method: public boolean java.lang.String.contentEquals(java.lang.StringBuffer)
+- Name: contentEquals
+- Exceptions: []
+- Parameters: 
+	- class java.lang.StringBuffer arg0
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: public boolean java.lang.String.contentEquals(java.lang.CharSequence)
+- Name: contentEquals
+- Exceptions: []
+- Parameters: 
+	- interface java.lang.CharSequence arg0
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: private boolean java.lang.String.nonSyncContentEquals(java.lang.AbstractStringBuilder)
+- Name: nonSyncContentEquals
+- Exceptions: []
+- Parameters: 
+	- class java.lang.AbstractStringBuilder arg0
+- Return type: boolean
+- Modifiers: private
+---------------------------------------
+Method: public boolean java.lang.String.equalsIgnoreCase(java.lang.String)
+- Name: equalsIgnoreCase
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.compareToIgnoreCase(java.lang.String)
+- Name: compareToIgnoreCase
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public boolean java.lang.String.regionMatches(int,java.lang.String,int,int)
+- Name: regionMatches
+- Exceptions: []
+- Parameters: 
+	- int arg0
+	- class java.lang.String arg1
+	- int arg2
+	- int arg3
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: public boolean java.lang.String.regionMatches(boolean,int,java.lang.String,int,int)
+- Name: regionMatches
+- Exceptions: []
+- Parameters: 
+	- boolean arg0
+	- int arg1
+	- class java.lang.String arg2
+	- int arg3
+	- int arg4
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: public boolean java.lang.String.startsWith(java.lang.String)
+- Name: startsWith
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: public boolean java.lang.String.startsWith(java.lang.String,int)
+- Name: startsWith
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+	- int arg1
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: public boolean java.lang.String.endsWith(java.lang.String)
+- Name: endsWith
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: private int java.lang.String.indexOfSupplementary(int,int)
+- Name: indexOfSupplementary
+- Exceptions: []
+- Parameters: 
+	- int arg0
+	- int arg1
+- Return type: int
+- Modifiers: private
+---------------------------------------
+Method: public int java.lang.String.lastIndexOf(int,int)
+- Name: lastIndexOf
+- Exceptions: []
+- Parameters: 
+	- int arg0
+	- int arg1
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: static int java.lang.String.lastIndexOf(char[],int,int,char[],int,int,int)
+- Name: lastIndexOf
+- Exceptions: []
+- Parameters: 
+	- class [C arg0
+	- int arg1
+	- int arg2
+	- class [C arg3
+	- int arg4
+	- int arg5
+	- int arg6
+- Return type: int
+- Modifiers: static
+---------------------------------------
+Method: static int java.lang.String.lastIndexOf(char[],int,int,java.lang.String,int)
+- Name: lastIndexOf
+- Exceptions: []
+- Parameters: 
+	- class [C arg0
+	- int arg1
+	- int arg2
+	- class java.lang.String arg3
+	- int arg4
+- Return type: int
+- Modifiers: static
+---------------------------------------
+Method: public int java.lang.String.lastIndexOf(java.lang.String,int)
+- Name: lastIndexOf
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+	- int arg1
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.lastIndexOf(int)
+- Name: lastIndexOf
+- Exceptions: []
+- Parameters: 
+	- int arg0
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: public int java.lang.String.lastIndexOf(java.lang.String)
+- Name: lastIndexOf
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+- Return type: int
+- Modifiers: public
+---------------------------------------
+Method: private int java.lang.String.lastIndexOfSupplementary(int,int)
+- Name: lastIndexOfSupplementary
+- Exceptions: []
+- Parameters: 
+	- int arg0
+	- int arg1
+- Return type: int
+- Modifiers: private
+---------------------------------------
+Method: public java.lang.String java.lang.String.substring(int)
+- Name: substring
+- Exceptions: []
+- Parameters: 
+	- int arg0
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String java.lang.String.substring(int,int)
+- Name: substring
+- Exceptions: []
+- Parameters: 
+	- int arg0
+	- int arg1
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.CharSequence java.lang.String.subSequence(int,int)
+- Name: subSequence
+- Exceptions: []
+- Parameters: 
+	- int arg0
+	- int arg1
+- Return type: interface java.lang.CharSequence
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String java.lang.String.concat(java.lang.String)
+- Name: concat
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String java.lang.String.replace(char,char)
+- Name: replace
+- Exceptions: []
+- Parameters: 
+	- char arg0
+	- char arg1
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String java.lang.String.replace(java.lang.CharSequence,java.lang.CharSequence)
+- Name: replace
+- Exceptions: []
+- Parameters: 
+	- interface java.lang.CharSequence arg0
+	- interface java.lang.CharSequence arg1
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public boolean java.lang.String.matches(java.lang.String)
+- Name: matches
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: public boolean java.lang.String.contains(java.lang.CharSequence)
+- Name: contains
+- Exceptions: []
+- Parameters: 
+	- interface java.lang.CharSequence arg0
+- Return type: boolean
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String java.lang.String.replaceFirst(java.lang.String,java.lang.String)
+- Name: replaceFirst
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+	- class java.lang.String arg1
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String java.lang.String.replaceAll(java.lang.String,java.lang.String)
+- Name: replaceAll
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+	- class java.lang.String arg1
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String[] java.lang.String.split(java.lang.String,int)
+- Name: split
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+	- int arg1
+- Return type: class [Ljava.lang.String;
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String[] java.lang.String.split(java.lang.String)
+- Name: split
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+- Return type: class [Ljava.lang.String;
+- Modifiers: public
+---------------------------------------
+Method: public static java.lang.String java.lang.String.join(java.lang.CharSequence,java.lang.CharSequence[])
+- Name: join
+- Exceptions: []
+- Parameters: 
+	- interface java.lang.CharSequence arg0
+	- class [Ljava.lang.CharSequence; arg1
+- Return type: class java.lang.String
+- Modifiers: public static transient
+---------------------------------------
+Method: public static java.lang.String java.lang.String.join(java.lang.CharSequence,java.lang.Iterable)
+- Name: join
+- Exceptions: []
+- Parameters: 
+	- interface java.lang.CharSequence arg0
+	- interface java.lang.Iterable arg1
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: public java.lang.String java.lang.String.toLowerCase(java.util.Locale)
+- Name: toLowerCase
+- Exceptions: []
+- Parameters: 
+	- class java.util.Locale arg0
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String java.lang.String.toLowerCase()
+- Name: toLowerCase
+- Exceptions: []
+- Parameters: 
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String java.lang.String.toUpperCase()
+- Name: toUpperCase
+- Exceptions: []
+- Parameters: 
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String java.lang.String.toUpperCase(java.util.Locale)
+- Name: toUpperCase
+- Exceptions: []
+- Parameters: 
+	- class java.util.Locale arg0
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String java.lang.String.trim()
+- Name: trim
+- Exceptions: []
+- Parameters: 
+- Return type: class java.lang.String
+- Modifiers: public
+---------------------------------------
+Method: public char[] java.lang.String.toCharArray()
+- Name: toCharArray
+- Exceptions: []
+- Parameters: 
+- Return type: class [C
+- Modifiers: public
+---------------------------------------
+Method: public static java.lang.String java.lang.String.format(java.util.Locale,java.lang.String,java.lang.Object[])
+- Name: format
+- Exceptions: []
+- Parameters: 
+	- class java.util.Locale arg0
+	- class java.lang.String arg1
+	- class [Ljava.lang.Object; arg2
+- Return type: class java.lang.String
+- Modifiers: public static transient
+---------------------------------------
+Method: public static java.lang.String java.lang.String.format(java.lang.String,java.lang.Object[])
+- Name: format
+- Exceptions: []
+- Parameters: 
+	- class java.lang.String arg0
+	- class [Ljava.lang.Object; arg1
+- Return type: class java.lang.String
+- Modifiers: public static transient
+---------------------------------------
+Method: public static java.lang.String java.lang.String.copyValueOf(char[],int,int)
+- Name: copyValueOf
+- Exceptions: []
+- Parameters: 
+	- class [C arg0
+	- int arg1
+	- int arg2
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: public static java.lang.String java.lang.String.copyValueOf(char[])
+- Name: copyValueOf
+- Exceptions: []
+- Parameters: 
+	- class [C arg0
+- Return type: class java.lang.String
+- Modifiers: public static
+---------------------------------------
+Method: public native java.lang.String java.lang.String.intern()
+- Name: intern
+- Exceptions: []
+- Parameters: 
+- Return type: class java.lang.String
+- Modifiers: public native
 ======================================================

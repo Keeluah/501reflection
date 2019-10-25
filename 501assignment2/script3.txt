@@ -1,5 +1,64 @@
 ======================================================
 Filename: script3.txt
 Running Test: ClassB
-Recursive: true
+Recursive: false
+Class: ClassB
+Interface: [interface java.lang.Runnable]
+---------------------------
+Superclass: ClassC
+Interface: [interface InterfaceA]
+---------------------------
+Superclass: ClassD
+Interface: []
+---------------------------
+Superclass: Object
+Interface: []
+---------------------------------------
+Constructor: public ClassB() throws java.lang.Exception
+- Name: ClassB
+- Parameters: 
+- Modifiers: public
+---------------------------------------
+Field: private ClassA ClassB.val
+- Name: val
+- Type: class ClassA
+- Modifiers: private
+2018699554
+	- object: 7852e922
+---------------------------------------
+Field: private ClassA ClassB.val2
+- Name: val2
+- Type: class ClassA
+- Modifiers: private
+2018699554
+	- object: 7852e922
+---------------------------------------
+Field: private ClassA ClassB.val3
+- Name: val3
+- Type: class ClassA
+- Modifiers: private
+2018699554
+	- object: 7852e922
+---------------------------------------
+Method: public void ClassB.func3(int)
+- Name: func3
+- Exceptions: []
+- Parameters: 
+	- int arg0
+- Return type: void
+- Modifiers: public
+---------------------------------------
+Method: public void ClassB.run()
+- Name: run
+- Exceptions: []
+- Parameters: 
+- Return type: void
+- Modifiers: public
+---------------------------------------
+Method: public java.lang.String ClassB.toString()
+- Name: toString
+- Exceptions: []
+- Parameters: 
+- Return type: class java.lang.String
+- Modifiers: public
 ======================================================
